@@ -8,6 +8,6 @@ class ProductsController << ApplicationController::Base
 
     current_cart << @item.id
   end
-    
+
 
 end
