@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
 
   # def add_to_cart
   #   @item = Item.find(params[:id])
-  # 
+  #
   #   current_cart << @item.id
   # end
   # Prevent CSRF attacks by raising an exception.
