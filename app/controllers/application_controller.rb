@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  helper_method :current_cart
+  helper_method :cart
 
   def cart
     session[:cart] ||= []
