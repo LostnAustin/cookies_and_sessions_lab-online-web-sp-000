@@ -6,7 +6,7 @@ class ProductsController << ApplicationController::Base
   def add_to_cart
     @item = Item.find(params[:id])
 
-    art << @item.id
+    cart << @item.id
   end
 
 
